@@ -27,7 +27,7 @@ const courses = [
   {
     title: "Design Viz Pro",
     duration: "7 Months",
-    skillLevel: "Intermediate",
+    skillLevel: "Beginner",
     description: "Design Viz Pro allows you to deep dive into design and visualization, from planning till execution. If you have strong visualization skills and love to play with the latest software, then this is the course for you. On successful completion of the animation course, you will be able to make a career in the animation industry, production houses, or architecture and engineering companies.",
     softwareCovered: [
       { name: "Adobe Photoshop", icon: adobe },
@@ -43,7 +43,7 @@ const courses = [
   {
     title: "Maya Pro",
     duration: "4 Months",
-    skillLevel: "Intermediate",
+    skillLevel: "Beginner",
     description: "MAYA Pro is one of the most sought after short-term courses at MAAC. It covers areas of animation including character animation, digital sculpting, and 3D design and modeling. Maya Pro takes you through the nuances of modeling, texturing, lighting, rigging, VFX and animation with the help of two advanced and industry-leading software, Maya and Mudbox. Maya Pro can be used for animation, environments, motion graphics, virtual reality, and character creation.",
     softwareCovered: [
       { name: "Autodesk Maya", icon: AutodeskMaya },
@@ -54,7 +54,7 @@ const courses = [
   {
     title: "MAX PRO",
     duration: "6 Months",
-    skillLevel: "Intermediate",
+    skillLevel: "Beginner",
     description: "MAX Pro trains students in texturing, lighting, modeling, skinning and character set up. You will be introduced to 3ds Max software. The usage of latest software like 3d Max helps you understand the functioning of the animation industry and the kinds of tools and technologies used. The MAX Pro course at MAAC helps you learn the fundamentals of 3D World along with advanced areas like dynamics and animation. This is ideal in case you are looking for short-duration multimedia courses.",
     softwareCovered: [
       { name: "Autodesk 3ds Max", icon: Autodesk3dsMax },
@@ -64,7 +64,7 @@ const courses = [
   {
     title: "DIGITAL FILMMAKING",
     duration: "6 Months",
-    skillLevel: "Intermediate",
+    skillLevel: "Beginner",
     description: "Short term digital filmmaking course is one of the most preferred introductory courses, where you can learn the basics and core areas of filmmaking, like pre-production techniques, linear editing, sound editing, and clay animation.",
     softwareCovered: [
       { name: "Adobe Photoshop", icon: adobe },
@@ -76,7 +76,7 @@ const courses = [
   {
     title: "COMPOSITING PLUS",
     duration: "7 Months",
-    skillLevel: "Intermediate",
+    skillLevel: "Beginner",
     description: "No film, TV or music video is complete without going through the process of compositing and editing. At this stage, different visual elements are placed together to create one scene or one sequence. The short-term Compositing Plus course at MAAC prepares you to excel in areas like digital design, match moving, rotoscopy, and camera tracking.",
     softwareCovered: [
       { name: "Adobe Photoshop", icon: adobe },
@@ -91,7 +91,7 @@ const courses = [
   {
     title: "Blender",
     duration: "6 Months",
-    skillLevel: "Intermediate",
+    skillLevel: "Beginner",
     description: "Blender is an open source 3D production software. You will learn to create 3D animation designs. Blender is widely used and gaining popularity in small and medium size studios producing for digital mediums.",
     softwareCovered: [
       { name: "Blender", icon: Blender },
@@ -100,7 +100,7 @@ const courses = [
   {
     title: "MAX PRO",
     duration: "6 Months",
-    skillLevel: "Intermediate",
+    skillLevel: "Beginner",
     description: "MAX Pro trains students in texturing, lighting, modeling, skinning and character set up. You will be introduced to 3ds Max software. The usage of latest software like 3d Max helps you understand the functioning of the animation industry and the kinds of tools and technologies used. The MAX Pro course at MAAC helps you learn the fundamentals of 3D World along with advanced areas like dynamics and animation. This is ideal in case you are looking for short-duration multimedia courses.",
     softwareCovered: [
       { name: "Cinema 4D", icon: Cinema4D },
@@ -114,7 +114,7 @@ const ShortTermSpecializedPage = () => {
         <h1 className="title">Short-term Courses</h1>
         <div className="info">
           <span>Duration: Less than 12 months</span>
-          <span>Skill Level: Intermediate</span>
+          <span>Skill Level: Beginner</span>
         </div>
       </div>
       <p className="paragraph">
