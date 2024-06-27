@@ -13,25 +13,15 @@ import company4 from '../images/company4.png';
 import company5 from '../images/company5.png';
 import company6 from '../images/company6.png';
 
-// import video1 from '../videos/video1.mp4';
 import video2 from '../videos/video2.mp4';
 import video3 from '../videos/video3.mp4';
 import video4 from '../videos/video4.mp4';
 import video5 from '../videos/video5.mp4';
-// import video6 from '../videos/video6.mp4';
 
-// import image1 from '../gifimages/image1.gif'
 import image from '../gifimages/image.gif'
-// import image6 from '../gifimages/image6.gif'
 import image3 from '../gifimages/image3.png'
 
-
-import img1 from '../images/img1.png';
-import img2 from '../images/img2.png';
-import img3 from '../images/img3.png';
-import img4 from '../images/img4.png';
-import img5 from '../images/img5.png';
-import img6 from '../images/img6.png';
+import bottom from '../images/bottom.png';
 
 const Home = () => {
   return (
@@ -85,9 +75,7 @@ const Home = () => {
       <div className="courses-grid">
         <div className="course-item">
           <div className="course-video">
-            {/* <video autoPlay loop muted playsInline> */}
               <img src={image} alt="gif" />
-            {/* </video> */}
             <div className="course-content">
             <h2>3D Animation Courses</h2>
             <p>Learn animation with the top animation courses at MAAC. Discover animation courses fees and more details about animation related courses.</p>
@@ -99,7 +87,6 @@ const Home = () => {
             <video autoPlay loop muted playsInline>
               <source src={video2} type="video/mp4" />
             </video>
-            {/* <img src={image6} alt="gif" /> */}
             <div className="course-content">
               <h2>VFX Courses</h2>
               <p>Join a VFX course that covers VFX animation and Learn 3d VFX at MAAC. Know VFX course fees and more details about VFX training.</p>
@@ -122,7 +109,6 @@ const Home = () => {
             <video autoPlay loop muted playsInline>
               <source src={video4} type="video/mp4" />
             </video>
-            {/* <img src={image1} alt="gif" /> */}
             <div className="course-content">
               <h2>Web & Graphic Design Courses</h2>
               <p>See all graphic design courses in Delhi & web designing programs. Options to learn graphic designing in Delhi and related courses fees details.</p>
@@ -142,9 +128,6 @@ const Home = () => {
         </div>
         <div className="course-item">
           <div className="course-video">
-            {/* <video autoPlay loop muted playsInline>
-              <source src={video6} type="video/mp4" />
-            </video> */}
             <img src={image3} alt="gif" />
             <div className="course-content">
               <h2>Short Term Courses</h2>
@@ -154,83 +137,8 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="how-it-works">
-      <div className="how-it-text w-100 text-center">
-        <h2 className="how">How it works</h2>
-      </div>
-      <div className="step-container">
-        {/* Step 1 */}
-        <div className="step-row">
-          <div className="step-number">1</div>
-          <div className="step-content">
-            <h2>Enquire</h2>
-            <p>About Courses, Fees, Duration, Career opportunities</p>
-          </div>
-          <div className="step-image">
-            <img src={img1} alt="Enquire" className="img-fluid" />
-          </div>
-        </div>
-
-        {/* Step 2 */}
-        <div className="step-row rev-row">
-          <div className="step-number">2</div>
-          <div className="step-image">
-            <img src={img2} alt="Enroll" className="img-fluid" />
-          </div>
-          <div className="step-content">
-            <h2>Enroll</h2>
-            <p>Hurray! You are a student at MAAC!</p>
-          </div>
-        </div>
-
-        {/* Step 3 */}
-        <div className="step-row">
-          <div className="step-number">3</div>
-          <div className="step-content">
-            <h2>Attend</h2>
-            <p>Regular classes and practice with the best trainers in Delhi</p>
-          </div>
-          <div className="step-image">
-            <img src={img3} alt="Attend" className="img-fluid" />
-          </div>
-        </div>
-
-        {/* Step 4 */}
-        <div className="step-row rev-row">
-          <div className="step-number">4</div>
-          <div className="step-image">
-            <img src={img4} alt="Participate" className="img-fluid" />
-          </div>
-          <div className="step-content">
-            <h2>Participate</h2>
-            <p>In Seminars, Workshops, Events, Competitions</p>
-          </div>
-        </div>
-
-        {/* Step 5 */}
-        <div className="step-row">
-          <div className="step-number">5</div>
-          <div className="step-content">
-            <h2>Submit</h2>
-            <p>Student works and show reel</p>
-          </div>
-          <div className="step-image">
-            <img src={img5} alt="Submit" className="img-fluid" />
-          </div>
-        </div>
-
-        {/* Step 6 */}
-        <div className="step-row rev-row">
-          <div className="step-number">6</div>
-          <div className="step-image">
-            <img src={img6} alt="Prepare" className="img-fluid" />
-          </div>
-          <div className="step-content">
-            <h2>Prepare</h2>
-            <p>Get ready for placements with top companies</p>
-          </div>
-        </div>
-      </div>
+    <div className='bottom'>
+      <img src={bottom} alt="" />
     </div>
     </div>
   );
